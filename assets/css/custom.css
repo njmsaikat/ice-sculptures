@@ -13,3 +13,7 @@
 .section-2xl.bg-image .container{
     padding: 100px 30px;
 }
+
+.height-control {
+    max-height: 240px;
+}
