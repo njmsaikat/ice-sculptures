@@ -1,0 +1,11 @@
+.portfolio-title-overlay.hover-style-2 .portfolio-item a .portfolio-hover{
+    background: rgb(24 24 24 / 50%);
+}
+.section-xl.bg-image .container{
+    padding: 100px 30px;
+}
+
+.testimonial-carousel .testimonial-item img {
+    width: 250px;
+    height: 250px;
+}
