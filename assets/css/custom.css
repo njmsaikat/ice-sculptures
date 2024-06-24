@@ -21,3 +21,27 @@
 .section-mid{
     padding: 40px 0;
 }
+
+.order_dropdown {
+    text-align: left;
+}
+.order_dropdown>select {
+    width: 100%;
+    border: 1px solid rgba(20, 22, 24, 0.1);
+    margin-bottom: 1rem;
+    padding: 15px 20px;
+    box-shadow: none;
+}
+
+.payments_logo {
+    max-width: 280px;
+}
+
+.masonry-top {
+    padding-bottom: 20px;
+}
+.round-img {
+    border-radius: 8%;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    margin-bottom: 20px;
+}

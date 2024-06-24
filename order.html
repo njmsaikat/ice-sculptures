@@ -140,35 +140,67 @@
 						<div class="col-12 col-lg-5">
 							<div class="row col-spacing-20">
 								<div class="col-12 col-sm-6 col-lg-12">
-									<h6 class="font-weight-medium margin-0">Phone:</h6>
-									<p>732.625.9125</p>
+									<h6 class="font-weight-medium margin-0">Contact Us</h6>
+									<p>EMAIL: <a href="mailto:KOMICE@optonline.net">KOMICE@optonline.net</a></p>
+									<p>PHONE: <a href="tel:732.625.9125">732.625.9125</a></p>
+									<ul class="list-inline-sm margin-top-10 margin-lg-top-20">
+										<li><a class="button-circle button-circle-xs button-circle-black" href="https://www.facebook.com/IceSculpturesbyKevinOMalley" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+										<li><a class="button-circle button-circle-xs button-circle-black" href="https://www.linkedin.com/in/kevinmomalley/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+										<li><a class="button-circle button-circle-xs button-circle-black" href="https://www.instagram.com/icesculpturesbykevinomalley/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+									</ul>
 								</div>
+								<div class="col-12 col-sm-6 col-lg-12 sloth_map">
+									<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1102264.7271267546!2d-75.52799613951238!3d40.262310451078335!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c22cf572c13b4b%3A0x7b7b89c04b3add57!2sIce%20Sculptures%20by%20Kevin%20O&#39;Malley!5e0!3m2!1sen!2sbd!4v1719241356799!5m2!1sen!2sbd" width="320" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+								</div>	
 								<div class="col-12 col-sm-6 col-lg-12">
-									<h6 class="font-weight-medium margin-0">Email:</h6>
-									<p>KOMICE@optonline.net</p>
-								</div>
+									<h6 class="font-weight-medium margin-0">Partners</h6>
+									<p>Ice King and Cold Storage</p>
+									<p>PHONE: <a href="tel:732.922.0852">732.922.0852</a></p>
+									<br/>
+									<p>Elegant Ice Equipment</p>
+									<p>EMAIL: <a href="mailto:Aaron@ElegantIce.com">Aaron@ElegantIce.com</a></p>
+								</div>	
 								<div class="col-12 col-sm-6 col-lg-12">
-									<h6 class="font-weight-medium margin-0">Viber:</h6>
-									<p>732.625.9125</p>
-								</div>
-								<div class="col-12 col-sm-6 col-lg-12">
-									<h6 class="font-weight-medium margin-0">Address:</h6>
-									<p>New Jersey, US</p>
+									<h6 class="font-weight-medium margin-0">Payment</h6>
+									<img class="payments_logo" src="assets/images/payments.png" alt="">
 								</div>	
 							</div><!-- end row(inner) -->
 						</div>
 						<div class="col-12 col-lg-7 text-lg-right">
-							<form method="post" id="contactform">
+							<form method="post" id="contactform" class="contact_form">
 								<div class="form-row">
 									<div class="col-12 col-sm-6">
-										<input type="text" id="name" name="name" placeholder="Name" required>
+										<input type="text" id="name" name="name" placeholder="First and Last Name *" required>
 									</div>
 									<div class="col-12 col-sm-6">
-										<input type="email" id="email" name="email" placeholder="E-Mail" required>
+										<input type="email" id="email" name="email" placeholder="E-Mail *" required>
 									</div>
 								</div>
-								<input type="text" id="subject" name="subject" placeholder="Subject" required>
-								<textarea name="message" id="message" placeholder="Message"></textarea>
+								<input type="text" id="subject" name="subject" placeholder="Organization *" required>
+								<textarea name="description" id="description" placeholder="Item Description/Quantity *"></textarea>
+								<input type="phone" id="phone" name="subject" placeholder="Phone/Fax *" required>
+								<input type="text" id="adddress" name="subject" placeholder="Address of Event *" required>
+								<input type="text" id="event_time" name="subject" placeholder="Event Date and Time * (Ex: June 25, 2013 5:00 pm)" required>
+								<input type="text" id="setup_time" name="subject" placeholder="Setup/Delivery Time *" required>
+								<input type="text" id="price" name="subject" placeholder="Price Quoted" required>
+								<input type="text" id="direction" name="subject" placeholder="Directions for Delivery" required>
+								<input type="text" id="com_freezer" name="subject" placeholder="Commercial Freezer Available? (Ex: Yes or No)" required>
+								<input type="text" id="ice_tray" name="subject" placeholder="Ice Tray/Light Needed? (Ex: Yes or No)" required>
+								<textarea name="comments" id="comments" placeholder="Extra Comments"></textarea>
+								<div class="order_dropdown">
+									<label for="know">How Did You Hear About Us?</label>
+									<br />
+									<select id="know">
+										<option></option>
+										<option value="Celebrations Magazine">Celebrations Magazine</option>
+										<option value="Google Search">Google Search</option>
+										<option value="Referral">Referral</option>
+										<option value="Facebook">Facebook</option>
+										<option value="Instagram">Instagram</option>
+										<option value="I'm a Repeat Customer">I'm a Repeat Customer</option>
+										<option value="Other">Other</option></select>
+									</select>
+								</div>
 								<button class="button button-lg button-rounded button-outline-dark" type="submit">Send Message</button>
 							</form>
 							<!-- Submit result -->
@@ -209,7 +241,7 @@
 							<ul class="list-dash font-lg-small">
 								<li><a href="faq.html">FAQ</a></li>
 								<li><a href="#">LIVE Demos</a></li>
-								<li><a href="#">About/News</a></li>
+								<li><a href="about-news.html">About/News</a></li>
 								<!-- <li><a href="#">Testimonial</a></li> -->
 							</ul>
 						</div>
